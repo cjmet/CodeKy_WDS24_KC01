@@ -173,11 +173,13 @@ body {
 ========================================================================== */
 
 .header-container {
+  position: sticky;
+  top: 0;
   background: #1b1b27;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8px 0;
+  padding: 0;
 }
 
 .header-content {
